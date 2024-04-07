@@ -1,4 +1,6 @@
- public class Company {
+import employees.Employee;
+
+public class Company {
         public static void main(String[] args) {
             Employee[] Employees = new Employee[6];
             Employees[1]= new Employee();
