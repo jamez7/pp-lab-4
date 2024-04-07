@@ -4,7 +4,7 @@ public class Worker extends Employee{
 
 
     public String position;
-    public getPosition(){
+    public String getPosition(){
         return this.position;
     }
 
