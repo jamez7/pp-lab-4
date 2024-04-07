@@ -12,7 +12,7 @@ public class Manager extends Employee {
 
     }
     public String toString(){
-        return "Manager: " + getName() + " Salary: " + getSalary();
+        return "Manager: " + getName() + " Salary: " + getSalary() + "Subordinates:" + this.numberOfSubordinates;
     }
 
 }
