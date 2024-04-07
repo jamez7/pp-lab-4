@@ -13,14 +13,6 @@ public class Company {
             };
 
 
-
-            System.out.println("Dane pracownika o indeksie 3: " + Employees[1].toString());
-
-            Employees[3].setSalary(1000);
-
-
-            Employees[3].toString();
-
             int i = 0;
             do {
                 System.out.println(Employees[i].toString());
