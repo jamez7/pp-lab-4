@@ -20,7 +20,7 @@ public class Employee {
         this.salary = salary;
     }
     public String toString(){
-        return "employees.Employee: " + getName() + " Salary: " + getSalary();
+        return "Employee: " + getName() + " Salary: " + getSalary();
     }
 
 

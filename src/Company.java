@@ -1,10 +1,11 @@
 import employees.Employee;
+import employees.Manager;
 import employees.Worker;
 
 public class Company {
         public static void main(String[] args) {
             Employee[] Employees = {
-                    new Employee("Jakub Kulikowski", 3000),
+                    new Manager("Jakub Kulikowski", 3000, 4),
                     new Worker("Damian Bąk", 2000, "Woźny"),
                     new Employee("Andrzej Wsad", 4000),
                     new Employee("Marcin Bińkowski", 3000),

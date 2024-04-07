@@ -18,6 +18,6 @@ public class Worker extends Employee{
     }
 
     public String toString(){
-        return "Manager: " + getName() + " Salary: " + getSalary() + "Position:" + this.position;
+        return "Manager: " + getName() + " Salary: " + getSalary() + " Position: " + this.position;
     }
 }
