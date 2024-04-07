@@ -17,7 +17,7 @@ public class Manager extends Employee {
 
     }
     public String toString(){
-        return "Manager: " + getName() + " Salary: " + getSalary() + "Subordinates:" + this.numberOfSubordinates;
+        return "Manager: " + getName() + " Salary: " + getSalary() + " Subordinates:" + this.numberOfSubordinates;
     }
 
 }
