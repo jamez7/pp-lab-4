@@ -1,10 +1,14 @@
  public class Company {
         public static void main(String[] args) {
-            Employee[] Employees = new Employee[5];
-            Employees[3] = new Employee();
+            Employee[] Employees = new Employee[6];
+            Employees[1]= new Employee();
+            Employees[2]= new Employee();
+            Employees[3]= new Employee();
+            Employees[4]= new Employee();
+            Employees[5]= new Employee();
 
 
-            System.out.println("Dane pracownika o indeksie 3: " + Employees[3].toString());
+            System.out.println("Dane pracownika o indeksie 3: " + Employees[1].toString());
 
             Employees[3].setSalary(1000);
 
@@ -13,10 +17,12 @@
 
             int i = 1;
             do {
-                Employees[i].toString();
+                System.out.println(Employees[i].toString());
                 i++;
             }
             while (i <= 5);
+
+
 
         }
     }
